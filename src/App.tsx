@@ -2,7 +2,6 @@ import React from "react";
 import { ReactFlow, Background } from "@xyflow/react";
 import data from "./data.json";
 import { useEdgesState, useNodesState } from "@xyflow/react";
-import { nodeTypes } from "./nodes/index";
 
 const { nodes } = data;
 
